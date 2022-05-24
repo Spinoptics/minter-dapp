@@ -9,7 +9,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Spinoptics Generative Art Blocks";
 const description = "A programmatic art project containing over 70 layers and 400 segments with differing rarities.";
-const baseUri = "https://ipfs.io/ipfs/bafybeibnorv6ioxqrwyqebulkwdsldc6pdy5nsa6e6rmo6h3wcslgzytsu/"; // This will be replaced automatically
+const baseUri = "ipfs://bafybeibnorv6ioxqrwyqebulkwdsldc6pdy5nsa6e6rmo6h3wcslgzytsu/"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
@@ -122,7 +122,7 @@ const PUBLIC_MINT_START_DATE = "2022-05-24T00:01:00+00:00"; // This is required.
 const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0xd8B808A887326F45B2D0cd999709Aa6264CeF919"; // Address that will receive the royalty
-const BASE_URI = "ipfs://bafybeibnorv6ioxqrwyqebulkwdsldc6pdy5nsa6e6rmo6h3wcslgzytsu/"; // only update if you want to manually set the ASE_URIase uri
+const BASE_URI = "https://ipfs.io/ipfs/bafybeibnorv6ioxqrwyqebulkwdsldc6pdy5nsa6e6rmo6h3wcslgzytsu/"; // only update if you want to manually set the ASE_URIase uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
 
@@ -133,7 +133,7 @@ let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually inclu
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
 const GENERIC_DESCRIPTION = "Which Blocks will you get?"; // Replace with what you want the generic descriptions to say.
-const GENERIC_IMAGE = "ipfs://bafybeibnorv6ioxqrwyqebulkwdsldc6pdy5nsa6e6rmo6h3wcslgzytsu/"; // Replace with your generic image that will display for all NFTs pre-reveal.
+const GENERIC_IMAGE = ""; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
 try {
