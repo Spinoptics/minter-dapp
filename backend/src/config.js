@@ -9,7 +9,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Spinoptics Generative Art Blocks";
 const description = "A programmatic art project containing over 70 layers and 400 segments with differing rarities.";
-const baseUri = "ipfs://bafybeibnorv6ioxqrwyqebulkwdsldc6pdy5nsa6e6rmo6h3wcslgzytsu/"; // This will be replaced automatically
+const baseUri = "https://ipfs.io/ipfs/bafybeibnorv6ioxqrwyqebulkwdsldc6pdy5nsa6e6rmo6h3wcslgzytsu/"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
