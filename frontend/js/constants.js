@@ -3,7 +3,7 @@ const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Spinoptics Generative Art Blocks NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The Spinoptics Blocks NFT Project is decentralized and open-source. It is a DIY project launched m own NFT Collection.';
+const welcome_p = 'The Spinoptics Generative Art Blocks NFT Collection is a programmatically generated series of around 400 peices. The pattern for each consist of ~70 layers (or segments) in the various positions on the canvas. Segments were graphically designed with various themes in mind. So you'll see many different styles in this fusion of art. Each position has 6-7 different potential segments of varied rarity.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
